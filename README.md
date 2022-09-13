@@ -1,3 +1,41 @@
+# project submission
+
+- Truffle and OpenZeppelin version
+
+
+$ truffle --version
+Truffle v5.5.29 (core: 5.5.29)
+Ganache v7.4.0
+Solidity - 0.8.17 (solc-js)
+Node v16.14.0
+Web3.js v1.7.4
+
+$ npm list
+app@1.0.0 /home/david/blockchain_developer/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code
+├── @ethereumjs/block@4.0.0
+├── @ethereumjs/common@3.0.0
+├── @ethereumjs/tx@4.0.0
+├── @ethereumjs/vm@6.0.0
+├── @metamask/eth-sig-util@4.0.1
+├── @metamask/safe-event-emitter@2.0.0
+├── @truffle/hdwallet-provider@2.0.14
+├── bindings@1.5.0 extraneous
+├── copy-webpack-plugin@4.6.0
+├── file-uri-to-path@1.0.0 extraneous
+├── nan@2.16.0 extraneous
+├── openzeppelin-solidity@4.6.0
+├── web3@1.7.5
+├── webpack-cli@3.3.12
+├── webpack-dev-server@3.11.3
+└── webpack@4.46.0
+
+- Token Name and symbol
+Name   : StarNotaryToken 
+Symbol : SNT
+
+
+
+
 # ND1309 C2 Ethereum Smart Contracts, Tokens and Dapps - Project Starter 
 **PROJECT: Decentralized Star Notary Service Project** - For this project, you will create a DApp by adding functionality with your smart contract and deploy it on the public testnet.
 
