@@ -128,7 +128,7 @@ it('lookUptokenIdToStarInfo test', async() => {
     await instance.createStar('new star 10', starId1, {from: owner1});
 
     // 2. Call your method lookUptokenIdToStarInfo
-    let star = await instance.tokenIdToStarInfo.call(starId1);
+    let star = await instance.lookUptokenIdToStarInfo.call(starId1);
     //console.log("name=" + star);
     // 3. Verify if you Star name is the same
     assert.equal(star, 'new star 10');
